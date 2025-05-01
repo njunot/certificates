@@ -35,11 +35,11 @@ import (
 	"go.step.sm/crypto/x509util"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/logging"
-	"github.com/smallstep/certificates/templates"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/logging"
+	"github.com/njunot/certificates/templates"
 )
 
 const (

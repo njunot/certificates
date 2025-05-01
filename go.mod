@@ -1,4 +1,4 @@
-module github.com/smallstep/certificates
+module github.com/njunot/certificates
 
 go 1.23.7
 

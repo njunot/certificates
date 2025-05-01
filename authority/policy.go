@@ -7,9 +7,9 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
-	authPolicy "github.com/smallstep/certificates/authority/policy"
-	policy "github.com/smallstep/certificates/policy"
+	"github.com/njunot/certificates/authority/admin"
+	authPolicy "github.com/njunot/certificates/authority/policy"
+	policy "github.com/njunot/certificates/policy"
 )
 
 type policyErrorType int

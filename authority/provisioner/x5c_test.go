@@ -16,7 +16,7 @@ import (
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/randutil"
 
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

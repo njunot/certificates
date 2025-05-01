@@ -31,9 +31,9 @@ import (
 	"go.step.sm/crypto/x509util"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // v is a utility function to return the pointer to an integer

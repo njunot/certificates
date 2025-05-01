@@ -21,7 +21,7 @@ import (
 	"go.step.sm/crypto/jose"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 )
 
 func TestAWS_Getters(t *testing.T) {

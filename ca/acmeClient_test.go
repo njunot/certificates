@@ -17,9 +17,9 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/pemutil"
 
-	"github.com/smallstep/certificates/acme"
-	acmeAPI "github.com/smallstep/certificates/acme/api"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/acme"
+	acmeAPI "github.com/njunot/certificates/acme/api"
+	"github.com/njunot/certificates/api/render"
 )
 
 func TestNewACMEClient(t *testing.T) {

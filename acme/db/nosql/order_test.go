@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/db"
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 )

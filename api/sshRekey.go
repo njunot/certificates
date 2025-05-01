@@ -6,11 +6,11 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/api/read"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 // SSHRekeyRequest is the request body of an SSH certificate request.

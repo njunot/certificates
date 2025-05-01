@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme"
+	"github.com/njunot/certificates/acme"
 	"github.com/smallstep/nosql"
 )
 

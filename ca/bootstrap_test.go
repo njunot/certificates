@@ -19,10 +19,10 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/randutil"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/errs"
 )
 
 func newLocalListener() net.Listener {

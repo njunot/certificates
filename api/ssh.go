@@ -14,14 +14,14 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
-	"github.com/smallstep/certificates/templates"
+	"github.com/njunot/certificates/api/read"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
+	"github.com/njunot/certificates/templates"
 )
 
 // SSHAuthority is the interface implemented by a SSH CA authority.

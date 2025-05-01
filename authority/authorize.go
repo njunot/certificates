@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
 	"github.com/smallstep/linkedca"
 	"go.step.sm/crypto/jose"
 	"golang.org/x/crypto/ssh"

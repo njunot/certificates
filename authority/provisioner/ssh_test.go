@@ -12,8 +12,8 @@ import (
 
 	"go.step.sm/crypto/sshutil"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 func validateSSHCertificate(cert *ssh.Certificate, opts *SignSSHOptions) error {

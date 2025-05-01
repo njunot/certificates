@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/certificates/acme/wire"
-	"github.com/smallstep/certificates/authority/provisioner"
-	wireprovisioner "github.com/smallstep/certificates/authority/provisioner/wire"
+	"github.com/njunot/certificates/acme/wire"
+	"github.com/njunot/certificates/authority/provisioner"
+	wireprovisioner "github.com/njunot/certificates/authority/provisioner/wire"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"

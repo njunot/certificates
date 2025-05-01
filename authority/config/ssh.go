@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 	"go.step.sm/crypto/jose"
 	"golang.org/x/crypto/ssh"
 )

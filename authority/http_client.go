@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/internal/httptransport"
 )
 
 // newHTTPClient will return an HTTP client that trusts the system cert pool and

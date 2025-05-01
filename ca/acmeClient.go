@@ -14,8 +14,8 @@ import (
 
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/acme"
-	acmeAPI "github.com/smallstep/certificates/acme/api"
+	"github.com/njunot/certificates/acme"
+	acmeAPI "github.com/njunot/certificates/acme/api"
 )
 
 // ACMEClient implements an HTTP client to an ACME API.

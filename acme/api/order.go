@@ -16,11 +16,11 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/acme/wire"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/acme/wire"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // NewOrderRequest represents the body for a NewOrder request.

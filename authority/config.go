@@ -1,6 +1,6 @@
 package authority
 
-import "github.com/smallstep/certificates/authority/config"
+import "github.com/njunot/certificates/authority/config"
 
 // Config is an alias to support older APIs.
 type Config = config.Config

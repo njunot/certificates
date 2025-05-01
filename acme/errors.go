@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 )
 
 // ProblemType is the type of the ACME problem.

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/certificates/acme"
-	certificatesdb "github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/acme"
+	certificatesdb "github.com/njunot/certificates/db"
 	"github.com/smallstep/nosql"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas/apiv1"
 	"go.step.sm/crypto/jose"
 )
 

@@ -15,13 +15,13 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/sshutil"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
-	"github.com/smallstep/certificates/templates"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/db"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
+	"github.com/njunot/certificates/templates"
+	"github.com/njunot/certificates/webhook"
 )
 
 const (

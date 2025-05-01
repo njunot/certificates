@@ -20,8 +20,8 @@ import (
 	"github.com/smallstep/linkedca"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority/admin"
 )
 
 func readProtoJSON(r io.ReadCloser, m proto.Message) error {

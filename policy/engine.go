@@ -10,7 +10,7 @@ import (
 	"go.step.sm/crypto/x509util"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/errs"
 )
 
 type NamePolicyReason int

@@ -19,8 +19,8 @@ import (
 	"github.com/smallstep/linkedca"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 type mockAdminAuthority struct {

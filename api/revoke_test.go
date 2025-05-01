@@ -15,10 +15,10 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/logging"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/logging"
 )
 
 func TestRevokeRequestValidate(t *testing.T) {

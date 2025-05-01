@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api/read"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/errs"
 )
 
 // RekeyRequest is the request body for a certificate rekey request.

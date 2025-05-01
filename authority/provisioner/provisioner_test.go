@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/go-jose/go-jose/v3"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/ssh"
 )

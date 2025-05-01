@@ -18,8 +18,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/commands"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/commands"
 	"github.com/smallstep/cli-utils/command"
 	"github.com/smallstep/cli-utils/command/version"
 	"github.com/smallstep/cli-utils/step"
@@ -38,10 +38,10 @@ import (
 	_ "go.step.sm/crypto/kms/yubikey"
 
 	// Enabled cas interfaces.
-	_ "github.com/smallstep/certificates/cas/cloudcas"
-	_ "github.com/smallstep/certificates/cas/softcas"
-	_ "github.com/smallstep/certificates/cas/stepcas"
-	_ "github.com/smallstep/certificates/cas/vaultcas"
+	_ "github.com/njunot/certificates/cas/cloudcas"
+	_ "github.com/njunot/certificates/cas/softcas"
+	_ "github.com/njunot/certificates/cas/stepcas"
+	_ "github.com/njunot/certificates/cas/vaultcas"
 )
 
 // commit and buildTime are filled in during build by the Makefile

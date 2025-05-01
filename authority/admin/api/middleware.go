@@ -7,11 +7,11 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/admin/db/nosql"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/admin/db/nosql"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // requireAPIEnabled is a middleware that ensures the Administration API

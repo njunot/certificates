@@ -14,8 +14,8 @@ import (
 	"github.com/smallstep/nosql"
 	"github.com/smallstep/nosql/database"
 
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 var (

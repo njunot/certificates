@@ -3,8 +3,8 @@ package authority
 import (
 	"context"
 
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/webhook"
 )
 
 type mockWebhookController struct {

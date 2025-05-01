@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/minica"

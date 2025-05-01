@@ -18,8 +18,8 @@ import (
 	"github.com/smallstep/cli-utils/step"
 	"go.step.sm/crypto/pemutil"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/internal/httptransport"
 )
 
 // Type represents the different types of identity files.

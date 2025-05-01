@@ -21,8 +21,8 @@ import (
 	"github.com/smallstep/assert"
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 func TestHandler_GetProvisioner(t *testing.T) {

@@ -19,10 +19,10 @@ import (
 	"github.com/smallstep/linkedca"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/admin/db/nosql"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/admin/db/nosql"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 func TestHandler_requireAPIEnabled(t *testing.T) {

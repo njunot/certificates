@@ -25,10 +25,10 @@ import (
 	"go.step.sm/crypto/tlsutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/db"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 const uuidPattern = "^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$"

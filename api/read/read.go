@@ -11,8 +11,8 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/errs"
 )
 
 // JSON reads JSON from the request body and stores it in the value

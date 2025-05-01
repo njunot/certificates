@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/internal/httptransport"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/internal/httptransport"
+	"github.com/njunot/certificates/webhook"
 	"github.com/smallstep/linkedca"
 	"github.com/stretchr/testify/assert"
 	"go.step.sm/crypto/pemutil"

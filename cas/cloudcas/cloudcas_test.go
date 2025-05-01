@@ -29,7 +29,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/googleapis/gax-go/v2"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/apiv1"
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/api/option"

@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/db"
 	"github.com/smallstep/nosql"
 )
 

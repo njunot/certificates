@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 var (

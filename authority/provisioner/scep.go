@@ -18,8 +18,8 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/internal/httptransport"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/internal/httptransport"
+	"github.com/njunot/certificates/webhook"
 )
 
 // SCEP is the SCEP provisioner type, an entity that can authorize the

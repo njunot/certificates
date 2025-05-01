@@ -16,13 +16,13 @@ import (
 	"github.com/smallstep/linkedca"
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/db"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 type raProvisioner interface {

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/acme/wire"
+	"github.com/njunot/certificates/acme/wire"
 	"github.com/smallstep/linkedca"
 )
 

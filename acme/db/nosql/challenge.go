@@ -9,7 +9,7 @@ import (
 
 	"github.com/smallstep/nosql"
 
-	"github.com/smallstep/certificates/acme"
+	"github.com/njunot/certificates/acme"
 )
 
 type dbChallenge struct {

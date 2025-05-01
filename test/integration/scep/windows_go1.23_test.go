@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	legacyx509 "github.com/smallstep/certificates/test/integration/scep/internal/x509"
+	legacyx509 "github.com/njunot/certificates/test/integration/scep/internal/x509"
 )
 
 func legacyCertificateParser(der []byte) (*x509.Certificate, error) {

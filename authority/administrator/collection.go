@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/provisioner"
 	"github.com/smallstep/linkedca"
 )
 

@@ -18,12 +18,12 @@ import (
 	"github.com/smallstep/cli-utils/errs"
 	"github.com/smallstep/cli-utils/step"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/pki"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/db"
+	"github.com/njunot/certificates/pki"
 )
 
 // AppCommand is the action used as the top action.

@@ -36,12 +36,12 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca/client"
-	"github.com/smallstep/certificates/ca/identity"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/ca/client"
+	"github.com/njunot/certificates/ca/identity"
+	"github.com/njunot/certificates/errs"
 )
 
 // DisableIdentity is a global variable to disable the identity.

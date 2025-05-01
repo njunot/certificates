@@ -17,7 +17,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
+	"github.com/njunot/certificates/acme"
 	tassert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"

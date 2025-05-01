@@ -16,9 +16,9 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/admin"
 )
 
 type fakeLinkedCA struct {

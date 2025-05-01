@@ -19,8 +19,8 @@ import (
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/errs"
 )
 
 // DefaultCertValidity is the default validity for a certificate if none is specified.

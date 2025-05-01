@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas/apiv1"
 )
 
 // raAuthorityNS is a custom namespace used to generate endpoint ids based on

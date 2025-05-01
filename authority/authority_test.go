@@ -17,9 +17,9 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/db"
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/minica"
 	"go.step.sm/crypto/pemutil"

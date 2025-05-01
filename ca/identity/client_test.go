@@ -11,7 +11,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/internal/httptransport"
 )
 
 func returnInput(val string) func() string {

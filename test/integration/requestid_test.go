@@ -23,12 +23,12 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/ca/client"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/ca/client"
+	"github.com/njunot/certificates/errs"
 )
 
 // reservePort "reserves" a TCP port by opening a listener on a random
