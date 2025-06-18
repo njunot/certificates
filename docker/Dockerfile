@@ -14,7 +14,7 @@ FROM smallstep/step-cli:latest
 COPY --from=builder /src/bin/step-ca /usr/local/bin/step-ca
 COPY --from=kms /usr/local/bin/step-kms-plugin /usr/local/bin/step-kms-plugin
 
-copy docker/rootCA.pem /etc/ssl/certs/rootCA.pem
+COPY docker/rootCA.pem /etc/ssl/certs/rootCA.pem
 
 USER step
 
