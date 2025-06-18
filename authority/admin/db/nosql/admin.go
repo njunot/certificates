@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/admin"
 	"github.com/smallstep/linkedca"
 	"github.com/smallstep/nosql"
 	"google.golang.org/protobuf/types/known/timestamppb"

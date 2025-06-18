@@ -7,7 +7,7 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/authority/admin"
 	"github.com/smallstep/nosql"
 )
 
