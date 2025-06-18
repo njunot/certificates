@@ -10,8 +10,8 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner/wire"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/provisioner/wire"
 )
 
 // CertificateOptions is an interface that returns a list of options passed when

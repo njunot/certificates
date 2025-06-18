@@ -18,7 +18,7 @@ import (
 	"golang.org/x/crypto/ssh"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/api/render"
+	"github.com/njunot/certificates/api/render"
 )
 
 func TestJWK_Getters(t *testing.T) {

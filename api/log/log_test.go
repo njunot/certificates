@@ -12,7 +12,7 @@ import (
 	pkgerrors "github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/smallstep/certificates/logging"
+	"github.com/njunot/certificates/logging"
 )
 
 type stackTracedError struct{}

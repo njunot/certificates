@@ -10,7 +10,7 @@ import (
 	"github.com/smallstep/cli-utils/fileutil"
 	"github.com/smallstep/cli-utils/step"
 
-	"github.com/smallstep/certificates/templates"
+	"github.com/njunot/certificates/templates"
 )
 
 // getTemplates returns all the templates enabled

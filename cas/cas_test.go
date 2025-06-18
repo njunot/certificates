@@ -12,8 +12,8 @@ import (
 	"go.step.sm/crypto/kms"
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/cas/softcas"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/softcas"
 )
 
 type mockCAS struct{}

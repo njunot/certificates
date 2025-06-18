@@ -17,7 +17,7 @@ import (
 	"go.step.sm/crypto/sshutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/errs"
 )
 
 // NOTE: There can be at most one kubernetes service account provisioner configured

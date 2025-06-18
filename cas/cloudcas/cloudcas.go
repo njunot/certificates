@@ -15,7 +15,7 @@ import (
 	"github.com/google/uuid"
 	gax "github.com/googleapis/gax-go/v2"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/apiv1"
 	"go.step.sm/crypto/x509util"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc/codes"

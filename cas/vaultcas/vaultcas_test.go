@@ -14,7 +14,7 @@ import (
 	"time"
 
 	vault "github.com/hashicorp/vault/api"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/apiv1"
 	"go.step.sm/crypto/pemutil"
 )
 

@@ -15,7 +15,7 @@ import (
 
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 var (

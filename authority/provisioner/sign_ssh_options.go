@@ -14,9 +14,9 @@ import (
 
 	"go.step.sm/crypto/keyutil"
 
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 const (

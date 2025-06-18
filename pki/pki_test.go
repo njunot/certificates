@@ -11,12 +11,12 @@ import (
 	"github.com/smallstep/cli-utils/step"
 	"github.com/smallstep/nosql"
 
-	"github.com/smallstep/certificates/authority/admin"
-	admindb "github.com/smallstep/certificates/authority/admin/db/nosql"
-	authconfig "github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/authority/admin"
+	admindb "github.com/njunot/certificates/authority/admin/db/nosql"
+	authconfig "github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/db"
 )
 
 func withDBDataSource(t *testing.T, dataSource string) func(c *authconfig.Config) error {

@@ -9,7 +9,7 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // Meter wraps the set of defined callbacks for metrics gatherers.

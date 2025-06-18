@@ -14,9 +14,9 @@ import (
 	"go.step.sm/crypto/sshutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
+	"github.com/njunot/certificates/webhook"
 )
 
 // x5cPayload extends jwt.Claims with step attributes.

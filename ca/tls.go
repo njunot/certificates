@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/ca/identity"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/ca/identity"
 )
 
 // mTLSDialContext will hold the dial context function to use in

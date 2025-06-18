@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas/apiv1"
 )
 
 func init() {

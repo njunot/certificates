@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api/read"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
 )
 
 // SignRequest is the request body for a certificate signature request.

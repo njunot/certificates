@@ -5,7 +5,7 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/policy"
+	"github.com/njunot/certificates/policy"
 )
 
 // X509Policy is an alias for policy.X509NamePolicyEngine

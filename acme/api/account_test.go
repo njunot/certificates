@@ -20,8 +20,8 @@ import (
 	"go.step.sm/crypto/jose"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 var (

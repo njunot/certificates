@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/admin"
 	"github.com/smallstep/linkedca"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/encoding/protojson"

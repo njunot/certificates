@@ -22,8 +22,8 @@ import (
 	"go.step.sm/crypto/x25519"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 const (

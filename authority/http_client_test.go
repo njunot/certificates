@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/internal/httptransport"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"

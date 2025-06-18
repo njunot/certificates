@@ -12,8 +12,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/errs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

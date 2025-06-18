@@ -13,7 +13,7 @@ import (
 	badgerv1 "github.com/dgraph-io/badger"
 	badgerv2 "github.com/dgraph-io/badger/v2"
 
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/internal/cast"
 	"github.com/smallstep/nosql"
 )
 

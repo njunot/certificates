@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/fxamacker/cbor/v2"
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	wireprovisioner "github.com/smallstep/certificates/authority/provisioner/wire"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	wireprovisioner "github.com/njunot/certificates/authority/provisioner/wire"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.step.sm/crypto/jose"

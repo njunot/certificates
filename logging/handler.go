@@ -10,8 +10,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/smallstep/certificates/internal/userid"
-	"github.com/smallstep/certificates/middleware/requestid"
+	"github.com/njunot/certificates/internal/userid"
+	"github.com/njunot/certificates/middleware/requestid"
 )
 
 // Common headers used for identifying the originating IP address of a client

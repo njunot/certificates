@@ -21,10 +21,10 @@ import (
 	"go.step.sm/crypto/pemutil"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/authority/provisioner/wire"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner/wire"
 
 	sassert "github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

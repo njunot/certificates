@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/api"
+	"github.com/njunot/certificates/api"
 	"go.step.sm/crypto/jose"
 )
 

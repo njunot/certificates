@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 	"golang.org/x/crypto/ssh"
 
 	"github.com/prometheus/client_golang/prometheus"

@@ -17,10 +17,10 @@ import (
 	"github.com/smallstep/cli-utils/ui"
 	"go.step.sm/crypto/randutil"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/pki"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/pki"
 )
 
 // defaultOnboardingURL is the production onboarding url, to use a development

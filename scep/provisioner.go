@@ -5,7 +5,7 @@ import (
 	"crypto"
 	"crypto/x509"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // Provisioner is an interface that embeds the

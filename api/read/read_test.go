@@ -17,7 +17,7 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/errs"
 )
 
 func TestJSON(t *testing.T) {

@@ -14,8 +14,8 @@ import (
 	"github.com/smallstep/cli-utils/command"
 	"github.com/smallstep/cli-utils/errs"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/config"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/config"
 )
 
 func init() {

@@ -6,10 +6,10 @@ import (
 	"text/template"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/authority"
-	authconfig "github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/templates"
+	"github.com/njunot/certificates/authority"
+	authconfig "github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/templates"
 	"github.com/smallstep/linkedca"
 )
 

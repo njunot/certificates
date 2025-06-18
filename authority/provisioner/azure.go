@@ -19,8 +19,8 @@ import (
 	"go.step.sm/crypto/sshutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/webhook"
 )
 
 // azureOIDCBaseURL is the base discovery url for Microsoft Azure tokens.

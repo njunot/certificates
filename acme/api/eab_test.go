@@ -13,7 +13,7 @@ import (
 	"go.step.sm/crypto/jose"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/acme"
+	"github.com/njunot/certificates/acme"
 )
 
 func Test_keysAreEqual(t *testing.T) {

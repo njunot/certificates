@@ -24,9 +24,9 @@ import (
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/internal/httptransport"
-	"github.com/smallstep/certificates/middleware/requestid"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/internal/httptransport"
+	"github.com/njunot/certificates/middleware/requestid"
+	"github.com/njunot/certificates/webhook"
 )
 
 func TestWebhookController_isCertTypeOK(t *testing.T) {

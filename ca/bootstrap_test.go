@@ -19,10 +19,10 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/randutil"
 
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/errs"
 )
 
 func newLocalListener() net.Listener {
@@ -380,7 +380,7 @@ func TestBootstrapClient(t *testing.T) {
 
 func TestBootstrapClientServerRotation(t *testing.T) {
 	if os.Getenv("CI") == "true" {
-		t.Skipf("skip until we fix https://github.com/smallstep/certificates/issues/873")
+		t.Skipf("skip until we fix https://github.com/njunot/certificates/issues/873")
 	}
 	reset := setMinCertDuration(1 * time.Second)
 	defer reset()

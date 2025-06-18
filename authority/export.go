@@ -13,7 +13,7 @@ import (
 	"github.com/smallstep/cli-utils/step"
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // Export creates a linkedca configuration form the current ca.json and loaded

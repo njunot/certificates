@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/cas/vaultcas/auth/approle"
-	"github.com/smallstep/certificates/cas/vaultcas/auth/aws"
-	"github.com/smallstep/certificates/cas/vaultcas/auth/kubernetes"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/vaultcas/auth/approle"
+	"github.com/njunot/certificates/cas/vaultcas/auth/aws"
+	"github.com/njunot/certificates/cas/vaultcas/auth/kubernetes"
 
 	vault "github.com/hashicorp/vault/api"
 )

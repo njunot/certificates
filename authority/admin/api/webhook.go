@@ -7,9 +7,9 @@ import (
 	"net/url"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/smallstep/certificates/api/read"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/admin"
+	"github.com/njunot/certificates/api/read"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/admin"
 	"github.com/smallstep/linkedca"
 	"go.step.sm/crypto/randutil"
 )

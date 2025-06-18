@@ -36,10 +36,10 @@ import (
 	"go.step.sm/crypto/x509util"
 	"golang.org/x/exp/slices"
 
-	"github.com/smallstep/certificates/acme/wire"
-	"github.com/smallstep/certificates/authority/provisioner"
-	wireprovisioner "github.com/smallstep/certificates/authority/provisioner/wire"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/acme/wire"
+	"github.com/njunot/certificates/authority/provisioner"
+	wireprovisioner "github.com/njunot/certificates/authority/provisioner/wire"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 type ChallengeType string

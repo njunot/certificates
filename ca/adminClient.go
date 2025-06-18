@@ -21,9 +21,9 @@ import (
 	"go.step.sm/crypto/jose"
 	"go.step.sm/crypto/randutil"
 
-	adminAPI "github.com/smallstep/certificates/authority/admin/api"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/errs"
+	adminAPI "github.com/njunot/certificates/authority/admin/api"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/errs"
 )
 
 const (

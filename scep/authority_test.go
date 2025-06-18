@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
 	"github.com/smallstep/linkedca"
 	"github.com/smallstep/pkcs7"
 	"github.com/smallstep/scep"

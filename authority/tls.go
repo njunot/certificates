@@ -25,12 +25,12 @@ import (
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	casapi "github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	casapi "github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/db"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/webhook"
 	"github.com/smallstep/nosql/database"
 )
 
@@ -98,7 +98,7 @@ func withDefaultASN1DN(def *config.ASN1DN) provisioner.CertificateModifierFunc {
 // Certificate Authority Service (CAS) that does not implement the
 // CertificateAuthoritySigner interface.
 //
-// [NotImplementedError]: https://pkg.go.dev/github.com/smallstep/certificates/cas/apiv1#NotImplementedError
+// [NotImplementedError]: https://pkg.go.dev/github.com/njunot/certificates/cas/apiv1#NotImplementedError
 func (a *Authority) GetX509Signer() (crypto.Signer, error) {
 	if s, ok := a.x509CAService.(casapi.CertificateAuthoritySigner); ok {
 		return s.GetSigner()

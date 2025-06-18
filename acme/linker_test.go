@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 func mockProvisioner(t *testing.T) Provisioner {

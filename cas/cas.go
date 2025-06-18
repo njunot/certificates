@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/apiv1"
 
 	// Enable default implementation
-	_ "github.com/smallstep/certificates/cas/softcas"
+	_ "github.com/njunot/certificates/cas/softcas"
 )
 
 // CertificateAuthorityService is the interface implemented by all the CAS.

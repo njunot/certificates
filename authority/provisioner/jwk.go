@@ -13,8 +13,8 @@ import (
 	"go.step.sm/crypto/sshutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 // jwtPayload extends jwt.Claims with step attributes.

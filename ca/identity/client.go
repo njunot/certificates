@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/internal/httptransport"
 )
 
 // Client wraps http.Client with a transport using the step root and identity.

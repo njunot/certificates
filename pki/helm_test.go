@@ -17,7 +17,7 @@ import (
 	"github.com/smallstep/linkedca"
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/cas/apiv1"
+	"github.com/njunot/certificates/cas/apiv1"
 )
 
 func TestPKI_WriteHelmTemplate(t *testing.T) {

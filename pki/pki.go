@@ -30,15 +30,15 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"go.step.sm/crypto/pemutil"
 
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/admin"
-	admindb "github.com/smallstep/certificates/authority/admin/db/nosql"
-	authconfig "github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas"
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/db"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/admin"
+	admindb "github.com/njunot/certificates/authority/admin/db/nosql"
+	authconfig "github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/db"
 )
 
 // DeploymentType defines witch type of deployment a user is initializing
@@ -743,7 +743,7 @@ func (p *PKI) askFeedback() {
 	ui.Println("  home. But your feedback is extremely valuable. Any information you can provide")
 	ui.Println("  regarding how you’re using `step` helps. Please send us a sentence or two,")
 	ui.Println("  good or bad at \033[1mfeedback@smallstep.com\033[0m or join GitHub Discussions")
-	ui.Println("  \033[1mhttps://github.com/smallstep/certificates/discussions\033[0m and our Discord ")
+	ui.Println("  \033[1mhttps://github.com/njunot/certificates/discussions\033[0m and our Discord ")
 	ui.Println("  \033[1mhttps://u.step.sm/discord\033[0m.")
 
 	if p.options.deploymentType == LinkedDeployment {

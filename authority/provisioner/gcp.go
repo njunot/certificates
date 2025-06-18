@@ -20,8 +20,8 @@ import (
 	"go.step.sm/crypto/sshutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/webhook"
 )
 
 // gcpCertsURL is the url that serves Google OAuth2 public keys.

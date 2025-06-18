@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/smallstep/certificates/ca"
+	"github.com/njunot/certificates/ca"
 )
 
 func printResponse(name string, v interface{}) {

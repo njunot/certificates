@@ -12,10 +12,10 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/errs"
-	"github.com/smallstep/certificates/internal/cast"
-	"github.com/smallstep/certificates/internal/httptransport"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/errs"
+	"github.com/njunot/certificates/internal/cast"
+	"github.com/njunot/certificates/internal/httptransport"
+	"github.com/njunot/certificates/webhook"
 )
 
 // Controller wraps a provisioner with other attributes useful in callback

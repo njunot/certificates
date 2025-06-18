@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/smallstep/assert"
-	"github.com/smallstep/certificates/authority/provisioner"
-	_ "github.com/smallstep/certificates/cas"
+	"github.com/njunot/certificates/authority/provisioner"
+	_ "github.com/njunot/certificates/cas"
 	"go.step.sm/crypto/jose"
 )
 

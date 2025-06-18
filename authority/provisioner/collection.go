@@ -14,8 +14,8 @@ import (
 
 	"go.step.sm/crypto/jose"
 
-	"github.com/smallstep/certificates/authority/admin"
-	"github.com/smallstep/certificates/internal/cast"
+	"github.com/njunot/certificates/authority/admin"
+	"github.com/njunot/certificates/internal/cast"
 )
 
 // DefaultProvisionersLimit is the default limit for listing provisioners.

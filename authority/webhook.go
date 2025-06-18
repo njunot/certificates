@@ -3,7 +3,7 @@ package authority
 import (
 	"context"
 
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/webhook"
 )
 
 type webhookController interface {

@@ -9,7 +9,7 @@ import (
 	"github.com/smallstep/cli-utils/step"
 	"go.step.sm/crypto/sshutil"
 
-	"github.com/smallstep/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/policy"
 )
 
 // SSHCertificateOptions is an interface that returns a list of options passed when

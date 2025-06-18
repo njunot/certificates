@@ -18,10 +18,10 @@ import (
 
 	"github.com/smallstep/linkedca"
 
-	"github.com/smallstep/certificates/internal/httptransport"
-	"github.com/smallstep/certificates/middleware/requestid"
-	"github.com/smallstep/certificates/templates"
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/internal/httptransport"
+	"github.com/njunot/certificates/middleware/requestid"
+	"github.com/njunot/certificates/templates"
+	"github.com/njunot/certificates/webhook"
 )
 
 var ErrWebhookDenied = errors.New("webhook server did not allow request")

@@ -13,7 +13,7 @@ import (
 	kmsapi "go.step.sm/crypto/kms/apiv1"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/smallstep/certificates/errs"
+	"github.com/njunot/certificates/errs"
 )
 
 // Interface is the interface that all provisioner types must implement.
@@ -316,7 +316,7 @@ func (l *List) UnmarshalJSON(data []byte) error {
 			p = &Nebula{}
 		default:
 			// Skip unsupported provisioners. A client using this method may be
-			// compiled with a version of smallstep/certificates that does not
+			// compiled with a version of njunot/certificates that does not
 			// support a specific provisioner type. If we don't skip unknown
 			// provisioners, a client encountering an unknown provisioner will
 			// break. Rather than break the client, we skip the provisioner.

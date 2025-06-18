@@ -33,11 +33,11 @@ import (
 	"go.step.sm/crypto/pemutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/authority/config"
-	"github.com/smallstep/certificates/authority/provisioner"
-	"github.com/smallstep/certificates/ca"
-	"github.com/smallstep/certificates/cas/apiv1"
-	"github.com/smallstep/certificates/internal/httptransport"
+	"github.com/njunot/certificates/authority/config"
+	"github.com/njunot/certificates/authority/provisioner"
+	"github.com/njunot/certificates/ca"
+	"github.com/njunot/certificates/cas/apiv1"
+	"github.com/njunot/certificates/internal/httptransport"
 )
 
 func newCAClient(t *testing.T, caURL, rootFilepath string) *ca.Client {

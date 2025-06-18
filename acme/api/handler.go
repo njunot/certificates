@@ -11,11 +11,11 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/api"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/api"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 func link(url, typ string) string {

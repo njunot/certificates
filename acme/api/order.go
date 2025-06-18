@@ -16,11 +16,11 @@ import (
 	"go.step.sm/crypto/randutil"
 	"go.step.sm/crypto/x509util"
 
-	"github.com/smallstep/certificates/acme"
-	"github.com/smallstep/certificates/acme/wire"
-	"github.com/smallstep/certificates/api/render"
-	"github.com/smallstep/certificates/authority/policy"
-	"github.com/smallstep/certificates/authority/provisioner"
+	"github.com/njunot/certificates/acme"
+	"github.com/njunot/certificates/acme/wire"
+	"github.com/njunot/certificates/api/render"
+	"github.com/njunot/certificates/authority/policy"
+	"github.com/njunot/certificates/authority/provisioner"
 )
 
 // NewOrderRequest represents the body for a NewOrder request.
@@ -143,7 +143,7 @@ func (f *FinalizeRequest) Validate() error {
 	// CSR specifically, instead of "normal" base64-url encoding (incl. padding).
 	// By trimming the padding from CSRs submitted by ACME clients that use
 	// base64-url encoding instead of raw base64-url encoding, these are also
-	// supported. This was reported in https://github.com/smallstep/certificates/issues/939
+	// supported. This was reported in https://github.com/njunot/certificates/issues/939
 	// to be the case for a Synology DSM NAS system.
 	csrBytes, err := base64.RawURLEncoding.DecodeString(strings.TrimRight(f.CSR, "="))
 	if err != nil {

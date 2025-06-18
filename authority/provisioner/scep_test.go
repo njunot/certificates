@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/smallstep/certificates/webhook"
+	"github.com/njunot/certificates/webhook"
 	"github.com/smallstep/linkedca"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
